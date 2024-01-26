@@ -11,7 +11,38 @@ import SwiftUI
 struct SwiftUI_Custom_Card_CarouselsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            
+            
+            
+            
+            PostAppearAnimationCarouselView(cardHeight: 500, cardWidth: 300,cardViews: [
+            
+                AnyView(Circle().frame(width: 50, height: 50).foregroundColor(.purple)),
+                
+                AnyView(Text("This is a test of a card!")),
+                
+                AnyView(VStack{
+                    Text("Hello World!")
+                    Text("This is a Sub Text!")
+                         
+                }),
+                
+                AnyView(Text("Guitar Hero")),
+                
+                
+                
+                AnyView(Text("Guitar Hero")),
+                
+                AnyView(Text("Guitar Hero")),
+                
+                
+                
+                
+                
+                
+                
+            ])//End Of Carousel
         }
     }
 }
