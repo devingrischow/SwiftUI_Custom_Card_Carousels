@@ -9,7 +9,7 @@
 
 import SwiftUI
 
-struct CarouselView: View {
+struct InfiniteCarouselView: View {
     
     @GestureState private var dragState = DragState.inactive
     @State var carouselLocation = 0
