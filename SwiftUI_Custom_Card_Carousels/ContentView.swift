@@ -22,6 +22,10 @@ struct ContentView_Previews:PreviewProvider {
         //comment to tell diference between areas 
         
         
+        
+        
+        //ONE MORE TIME
+        
             DynamicCarouselWithCards(cardHeight: 500, cardWidth: 300,cardViews: [
             
                 
