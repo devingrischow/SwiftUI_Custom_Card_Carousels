@@ -58,8 +58,9 @@ struct CarouselView: View {
             
             VStack{
                 ZStack{
-                    ForEach(0..<cardViews.count){i in
+                    ForEach(0..<cardViews.count){ i in
                         VStack{
+                            
                             Spacer()
                             self.cardViews[i]
                             

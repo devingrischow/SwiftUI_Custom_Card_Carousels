@@ -1,0 +1,31 @@
+
+#Pull Request Solver by Devin Grischow
+
+#To Add this code to your project, selecting the PROJECT, press add new file to create a file at the ROOT,
+#Then make a EMPTY file, and name it the .gitattributes
+
+
+#This bit of code is designed to help SOLVE the pull/merges/ pull requests and saying there is conflicting files, 99% of the time it comes from this file saying something that there is conflict in side.
+#This is due to small changes like function renaming, file names, groups, etc.
+
+
+#When the pbXproj is coming in, just merge and UNION each other.
+
+## Xcode Patch
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+
+
+
+
+
+
+
+
+
+#some sources where this information was gained from, more uses and helpability Added By Devin Grischow
+

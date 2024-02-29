@@ -63,7 +63,7 @@ struct PostAppearAnimationCarouselView: View {
             
             withAnimation(.easeInOut(duration: 1)){
                 animateEatHint.toggle()
-            }
+            }    
 
         }//End Of Width Block
         

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2301C70C2B90D5AD00343EC6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2301C70B2B90D5AD00343EC6 /* .gitignore */; };
 		235D32452B3AAEB700C57F5D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D32442B3AAEB700C57F5D /* SwiftUIView.swift */; };
 		236FA7702B1D4358009D25BD /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236FA76F2B1D4358009D25BD /* CarouselView.swift */; };
 		23A3EB522B2A096E00E2EF44 /* AnimationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A3EB512B2A096E00E2EF44 /* AnimationTest.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2301C70B2B90D5AD00343EC6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		235D32442B3AAEB700C57F5D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		236FA76F2B1D4358009D25BD /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		23A3EB512B2A096E00E2EF44 /* AnimationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTest.swift; sourceTree = "<group>"; };
@@ -47,6 +49,7 @@
 		23AB63182B09943600F4481F = {
 			isa = PBXGroup;
 			children = (
+				2301C70B2B90D5AD00343EC6 /* .gitignore */,
 				23AB63232B09943600F4481F /* SwiftUI_Custom_Card_Carousels */,
 				23AB63222B09943600F4481F /* Products */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23AB632C2B09943700F4481F /* Preview Assets.xcassets in Resources */,
+				2301C70C2B90D5AD00343EC6 /* .gitignore in Resources */,
 				23AB63292B09943700F4481F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
