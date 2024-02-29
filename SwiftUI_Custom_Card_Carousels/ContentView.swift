@@ -17,6 +17,10 @@ struct ContentView_Previews:PreviewProvider {
     static var previews: some View{
         
         
+        
+        
+        
+        
             
             
             DynamicCarouselWithCards(cardHeight: 500, cardWidth: 300,cardViews: [

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2301C70C2B90D5AD00343EC6 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2301C70B2B90D5AD00343EC6 /* .gitignore */; };
+		2301C70E2B90D68300343EC6 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2301C70D2B90D68300343EC6 /* TestFile.swift */; };
 		235D32452B3AAEB700C57F5D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235D32442B3AAEB700C57F5D /* SwiftUIView.swift */; };
 		236FA7702B1D4358009D25BD /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236FA76F2B1D4358009D25BD /* CarouselView.swift */; };
 		23A3EB522B2A096E00E2EF44 /* AnimationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A3EB512B2A096E00E2EF44 /* AnimationTest.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		2301C70B2B90D5AD00343EC6 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2301C70D2B90D68300343EC6 /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
 		235D32442B3AAEB700C57F5D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		236FA76F2B1D4358009D25BD /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		23A3EB512B2A096E00E2EF44 /* AnimationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTest.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		23AB63182B09943600F4481F = {
 			isa = PBXGroup;
 			children = (
+				2301C70D2B90D68300343EC6 /* TestFile.swift */,
 				2301C70B2B90D5AD00343EC6 /* .gitignore */,
 				23AB63232B09943600F4481F /* SwiftUI_Custom_Card_Carousels */,
 				23AB63222B09943600F4481F /* Products */,
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2301C70E2B90D68300343EC6 /* TestFile.swift in Sources */,
 				23A3EB522B2A096E00E2EF44 /* AnimationTest.swift in Sources */,
 				23D54AA22B2815270029199F /* PostAppearAnimationCarouselView.swift in Sources */,
 				235D32452B3AAEB700C57F5D /* SwiftUIView.swift in Sources */,
